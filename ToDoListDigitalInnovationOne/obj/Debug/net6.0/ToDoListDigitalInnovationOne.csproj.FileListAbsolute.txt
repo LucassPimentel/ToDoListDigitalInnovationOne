@@ -59,3 +59,8 @@ C:\Users\lupdsilva\source\repos\ToDoListDigitalInnovationOne\ToDoListDigitalInno
 C:\Users\lupdsilva\source\repos\ToDoListDigitalInnovationOne\ToDoListDigitalInnovationOne\obj\Debug\net6.0\ToDoListDigitalInnovationOne.pdb
 C:\Users\lupdsilva\source\repos\ToDoListDigitalInnovationOne\ToDoListDigitalInnovationOne\obj\Debug\net6.0\ToDoListDigitalInnovationOne.genruntimeconfig.cache
 C:\Users\lupdsilva\source\repos\ToDoListDigitalInnovationOne\ToDoListDigitalInnovationOne\obj\Debug\net6.0\ref\ToDoListDigitalInnovationOne.dll
+C:\Users\lupdsilva\source\repos\ToDoListDigitalInnovationOne\ToDoListDigitalInnovationOne\bin\Debug\net6.0\libman.json
+C:\Users\lupdsilva\source\repos\ToDoListDigitalInnovationOne\ToDoListDigitalInnovationOne\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\lupdsilva\source\repos\ToDoListDigitalInnovationOne\ToDoListDigitalInnovationOne\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\lupdsilva\source\repos\ToDoListDigitalInnovationOne\ToDoListDigitalInnovationOne\bin\Debug\net6.0\FluentResults.dll
+C:\Users\lupdsilva\source\repos\ToDoListDigitalInnovationOne\ToDoListDigitalInnovationOne\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
