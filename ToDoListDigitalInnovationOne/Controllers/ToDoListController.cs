@@ -28,7 +28,7 @@ namespace ToDoListDigitalInnovationOne.Controllers
         [HttpPut("{id}")]
         public IActionResult PutToDo(int id, PutToDoDto putToDoDto)
         {
-            var result = _toDoListRepository.PutToDoList(Id, putToDoDto);
+            var result = _toDoListRepository.PutToDoList(id, putToDoDto);
             return result.IsSuccess ? (NoContent()) : (NotFound(result.Errors[0].Message));
         }
 
@@ -70,7 +70,8 @@ namespace ToDoListDigitalInnovationOne.Controllers
         [HttpGet("ObterPorStatus")]
         public IActionResult GetToDoByStatus(Status status)
         {
-            // implementar a lógica para buscar por status..
+            var result = _toDoListRepository.GetToDoByStatus(status);
+            return result.Count > 0 ? (Ok(result)) : (NotFound("Não encontrado."));
         }
     }
 

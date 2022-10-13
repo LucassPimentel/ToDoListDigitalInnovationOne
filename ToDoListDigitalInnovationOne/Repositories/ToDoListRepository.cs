@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using ToDoListDigitalInnovationOne.Context;
 using ToDoListDigitalInnovationOne.Dtos;
+using ToDoListDigitalInnovationOne.Enums;
 using ToDoListDigitalInnovationOne.Interfaces;
 using ToDoListDigitalInnovationOne.Models;
 
@@ -63,6 +64,12 @@ namespace ToDoListDigitalInnovationOne.Repositories
         public ToDoList? GetToDoById(int Id)
         {
             return _appDbContext.ToDoList.Find(Id);
+        }
+
+        public List<ToDoList> GetToDoByStatus(Status status)
+        {
+            var toDosByStatus = _appDbContext.ToDoList.Where(t => t.Status == status);
+            return toDosByStatus.ToList();
         }
 
         public List<ToDoList> GetToDoByTitle(string titulo)

@@ -1,5 +1,6 @@
 ﻿using FluentResults;
 using ToDoListDigitalInnovationOne.Dtos;
+using ToDoListDigitalInnovationOne.Enums;
 using ToDoListDigitalInnovationOne.Models;
 
 namespace ToDoListDigitalInnovationOne.Interfaces
@@ -11,6 +12,7 @@ namespace ToDoListDigitalInnovationOne.Interfaces
         List<ToDoList> GetAllToDo();
         List<ToDoList> GetToDoByDate(DateTime date);
         ToDoList GetToDoById(int id);
+        List<ToDoList> GetToDoByStatus(Status status);
         List<ToDoList> GetToDoByTitle(string titulo);
         Result PutToDoList(int Id, PutToDoDto putToDoDto);
     }
